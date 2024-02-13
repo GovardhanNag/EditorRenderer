@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ce ="clr-namespace:MauiApp2"
+             x:Class="MauiApp2.MainPage">
+    <ScrollView>
+        <StackLayout Spacing="25" Padding="30,30" VerticalOptions="Start">
+            <Label Text="Entry field" FontAttributes="Bold" FontSize="Large" TextDecorations="Underline"/>
+            <ce:CustomEntry x:Name="entry" Placeholder="Custom Entry" PlaceholderColor="Gray" FontSize="16"/>
+            <Label Text="Editor field" FontAttributes="Bold" FontSize="Large" TextDecorations="Underline"/>
+            <ce:CustomEditor x:Name="editor" HeightRequest="150" Placeholder="Custom Editor" FontSize="16" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
