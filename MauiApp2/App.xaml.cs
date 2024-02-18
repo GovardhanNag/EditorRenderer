@@ -19,7 +19,7 @@ namespace MauiApp2
                 shape.Paint.SetStyle(Android.Graphics.Paint.Style.Stroke);  
                 handler.PlatformView.Background=shape; 
 #elif IOS
-                    handler.PlatformView.Layer.BorderColor = UIKit.UIColor.Gray.CGColor;
+                handler.PlatformView.Layer.BorderColor = UIKit.UIColor.Gray.CGColor;
                 handler.PlatformView.BorderStyle = UIKit.UITextBorderStyle.RoundedRect;
 #endif
             }

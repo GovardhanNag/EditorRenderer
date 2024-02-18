@@ -8,7 +8,7 @@
             <Label Text="Entry field" FontAttributes="Bold" FontSize="Large" TextDecorations="Underline"/>
             <ce:CustomEntry x:Name="entry" Placeholder="Custom Entry" PlaceholderColor="Gray" FontSize="16"/>
             <Label Text="Editor field" FontAttributes="Bold" FontSize="Large" TextDecorations="Underline"/>
-            <ce:CustomEditor x:Name="editor" HeightRequest="150" Placeholder="Custom Editor" FontSize="16" />
+            <ce:CustomEditor x:Name="editor" HeightRequest="150" Placeholder="Custom Editor" FontSize="16" IsRoundedBorder="False"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

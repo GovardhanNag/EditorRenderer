@@ -31,7 +31,8 @@ namespace MauiApp2.Platforms
                 casted.PlatformView.MovementMethod = ScrollingMovementMethod.Instance;
                 gd.SetCornerRadius(10);
                 gd.SetStroke(2, Color.Black);
-                casted.PlatformView.Background = gd;
+                if(viewData.IsRoundedBorder)
+                    casted.PlatformView.Background = gd;
             }
         }
     }
